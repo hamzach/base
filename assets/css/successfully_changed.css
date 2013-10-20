@@ -1,0 +1,95 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header, footer, section, aside, hgroup, nav{
+	display: block;
+}
+
+body{
+	background-image: url("../img/back.png");
+	overflow: scroll;
+	overflow-x: scroll;
+	font-family: arial;
+	font-style: normal;
+	position: relative;
+}
+
+#body-div{
+	width: 790px;
+	height: 142px;
+	background-color: white;
+	margin-left: 270;
+	margin-top: 11;
+	border: 1px solid #ccc;
+}
+
+#logo{
+	margin-left: 136px;
+	margin-top: 4px;
+}
+
+#heading{
+	margin-left: 72px;
+	padding-top: 42px;	
+}
+
+#heading h1{
+	font-size: 18px;
+}
+
+#button{
+	margin-bottom: 10px;
+}
+
+.button {
+	width: 75px;
+	height: 25px;
+	margin-left: 73px;
+	margin-top: 13px;
+	font-family: Arial,sans-serif;
+	background: #0571A6;
+	background: -moz-linear-gradient(top, #73aec9 0, #73aec9 1px, #338ab0 1px, #0571a6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #73aec9), color-stop(5%, #73aec9), color-stop(5%, #338ab0), color-stop(100%, #0571a6));
+	border-color: #045a8b;
+	color: #fff ;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-size: 12px;
+}
+
+#submit:hover{
+	background: #04608E;
+	background: -moz-linear-gradient(top, #69a0b6 0, #69a0b6 1px, #277696 1px, #04608e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #69a0b6), color-stop(5%, #69a0b6), color-stop(5%, #277696), color-stop(100%, #04608e));
+}
+
+footer{
+	display: inline-block;
+	color: grey;
+	margin-left: 273;
+	margin-top: 11px;
+}
+
+#cor{
+	display: inline-block;
+	border-right: 1px solid grey;
+	padding-right: 6px;
+}
+
+#cor p{
+	font-size: 12px;
+}
+
+#com{
+	display: inline-block;
+	padding-left: 6;
+}
+
+#com p{
+	font-size: 12px;
+}
